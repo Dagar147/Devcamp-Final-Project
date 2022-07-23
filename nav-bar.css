@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+}
+.nav-bar {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.category > .pens {
+    margin-right: 10px;
+}
+
+.category > .projects {
+    margin-right: 10px;
+}
+
+.category > .posts {
+    margin-right: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar > .left-column > .categories {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.nav-bar > .left-column > .categories > .explore-categories > .category {
+    margin-top: -20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-bar > .left-column {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.nav-bar > .left-column > .logo {
+    padding-left: 15px;
+    padding-right: 25px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+}
+
+.nav-bar > .left-column > .categories > .explore-categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar > .left-column > .categories > .explore {
+    color: #cea135;
+    margin-bottom: -20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: bold;
+}
+
+.nav-bar > .left-column > .categories > .explore-categories > .category > .spark {
+    color: gainsboro;
+    padding-left: 40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-bar > .left-column > .categories > .explore-categories > .category > .spark i {
+    padding-left: 10px;
+}
+
+.nav-bar > .buttons {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-bar > .buttons > .box-1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-bar > .buttons > .box-1 > .create {
+    padding: 3px 10px;
+    background-color: #333333;
+    color: white;
+    width: 90px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+} 
+
+.nav-bar > .buttons > .box-1 > .create i {
+    color: #65F16D;
+    padding-left: 10px;
+}
+
+.nav-bar > .buttons > .search-icon {
+    font-size: 2em;
+    color: #575A5A;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-bar > .buttons > .sign-in-section {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-bar > .buttons > .sign-in-section > .log-in {
+    padding: 3px 5px;
+    background-color: #333333;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.nav-bar > .buttons > .sign-in-section > .sign-up {
+    padding: 3px 5px;
+    background-color: #333333;
+    color: white;
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.nav-bar > .buttons {
+    font-family: 'Lato', sans-serif;
+}

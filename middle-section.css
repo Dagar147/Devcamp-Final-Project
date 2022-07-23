@@ -1,0 +1,89 @@
+.middle-section {
+    background-image: radial-gradient(ellipse at top left, rgba(66,70,80,1) 0%, rgba(0,0,0,1) 100%);
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-section > .paragraph > .top-paragraph p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.middle-section > .paragraph > .top-paragraph {
+    margin-left: 40px;
+}
+
+.middle-section > .paragraph > .top-paragraph p {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+}
+
+.middle-section > .paragraph > .bottom-paragraph p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    color: darkgray;
+}
+
+.middle-section > .paragraph > .bottom-paragraph {
+    margin-left: 40px;
+}
+
+.sign-up-for-free > .button {
+    font-family: 'Lato', sans-serif;
+    background-color: #52C358;
+    color: black;
+    padding: 17px 35px;
+    font-size: 1.5em;
+    border: 1px solid #52C358;
+    border-radius: 2px;
+    outline: none;
+}
+
+.learn-more > .button {
+    font-family: 'Lato', sans-serif;
+    background-color:black;
+    color: white;
+    padding: 17px 35px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+.middle-section > .paragraph > .buttons > .sign-up-for-free {
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.middle-section > .paragraph > .buttons > .learn-more {
+    padding-top: 20px;
+}
+
+.middle-section > .paragraph > .buttons {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.middle-section > .example img {
+    height: 450px;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.middle-section > .example > .text {
+    display: flex;
+    justify-content: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25em;
+}
+
+.middle-section > .example > .text > .blue-text {
+    padding-left: 3px;
+    color: #70C7E6;
+}

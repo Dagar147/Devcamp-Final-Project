@@ -1,0 +1,48 @@
+.footer > .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 1px solid darkgray;
+    color: white;
+    background-color: #424650;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer > .footer-grid > .teams {
+    border: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer > .footer-grid > .education {
+    border: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer > .footer-grid > .privacy {
+    border: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.footer > .footer-grid > .writing {
+    border: 1px solid darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.bold {
+    padding-left: 5px;
+    font-size: 1.25em;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.footer > .bottom-blank-space {
+    height: 150px;
+    background-color: #1B1B1B;
+}
